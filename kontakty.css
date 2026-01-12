@@ -1,0 +1,68 @@
+body{
+	background-color: #f9f7f3; /*barva pozadi*/
+    font-family: times new roman; /*font*/
+    justify-content: center; /*zarovnani na stred*/
+    display: flex; /*zarovnani na stred*/
+}
+
+.název{
+	font-family: times new roman; /*font*/
+	justify-content: center; /*zarovnani na stred*/
+	display: flex; /*zarovnani na stred*/
+	font-size: 30px; /*velikost pisma*/
+}
+
+img{
+	width: 1475px; /*sirka obrazku*/
+}
+
+.text{
+	font-family: times new roman; /*font*/
+    text-align: center; /*zarovnani textu na stred*/
+	font-size: 19px; /*velikost pisma*/
+    }
+
+
+h4{ /*nadpis 4.urovne*/
+	font-size: 22px; /*velikost pisma*/
+	color: #d4a373; /*barva pisma nadpisu*/
+	justify-content: center; /*zarovnani na stred*/
+	display: flex; /*zarovnani na stred*/
+
+}
+a{
+	font-family: times new roman; /*font*/
+    font-size: 17px; /*velikost pisma*/
+    justify-content: center; /*zarovnani na stred*/
+	display: flex; /*zarovnani na stred*/
+	text-align: center; /*zarovnani textu na stred*/
+	color: #d4a373; /*barva odzaku po navstiveni*/	
+}
+
+a:visited{
+	color: #d4a373; /*barva odzaku po navstiveni*/
+
+}
+footer{
+    width: 1475px; /*sirka zapati*/
+    height: 145px; /*vyska zapati*/
+
+    margin-top: -20px; /*odsazeni zezhora*/
+   
+    background-color: #e3d5ca; /*barva pozadi*/
+}
+
+.obrazek_v_zapati{
+    width: 170px; /*sirka obrazku*/
+    height: 195px; /*vyska obrazku*/
+}
+.obrazek_zapati{
+    justify-content: center; /*zarovnani na stred*/
+    display: flex; /*zarovnani na stred*/
+}
+p{
+    font-family: times new roman; /*font*/ 
+	justify-content: center; /*zarovnani na stred*/
+	display: flex; /*zarovnani na stred*/
+	font-size: 19px; /*velikost pisma*/
+}

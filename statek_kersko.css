@@ -1,0 +1,124 @@
+body{
+	justify-content: center; /*zarovnani na stred*/
+	display: flex; /*zarovnani na stred*/
+	
+	background-color: #f9f7f3; /*barva pozadi*/
+
+	font-family: times new roman; /*font*/
+
+    margin-top: 0; /*margin nastaveny tak, aby to bylo u horniho okraje*/
+}
+.obr1{
+    width: 1475px; /*sirka obrazku*/
+    margin-top: 100px; /*odsazeni ze zhora*/
+}
+
+img{
+     width: 545px; /*sirka obrazku*/
+     height: 320px; /*vyska obrazku*/
+}
+ .obrazkovydiv img:hover{ /*obrazek se zmensuje*/
+    scale:0.9; /*jak moc se zmensi*/
+    transition: 0.4s; /*jak rychle se zmesi*/
+ }
+ 
+.menu{
+	background-color: #ccd5ae; /*barva poozadi*/
+    
+    font-family: times new roman; /*font*/
+    font-size: 24px;
+
+    width: 1475px; /*sirka bloku*/
+    height: 100px; /*vyska bloku*/
+
+    justify-content: right; /*zarovnani na pravo*/
+	display: flex; /*zarovnani na stred*/
+    
+    position: fixed; /*menu zustane pripnute nahore*/
+ }
+
+a{  
+    color: black; /*barva pisma*/
+	text-decoration: none; /*odkaz nebude podtrzeny*/
+    
+    font-weight: 20px; /*velikost pisma*/
+
+    margin-left: 110px; /*odsazeni zleva*/
+    margin-top: 33px; /*odsazeni zezhora*/
+    margin-bottom: 29px; /*odsazeni zespoda*/
+    margin-right: 14px; /*odsazeni zprava*/
+    
+ }
+a:hover{
+	color: black; /*barva pisma*/
+	font-size: 103%; /*velikost pri prejeti mysi*/
+}
+
+a:visited{
+	color: black; /*barva po navstiveni odkazu*/
+}
+.název{
+	margin-right: 850px; /*odsazeni zprava*/
+	margin-top: 33px; /*odsazeni zezhora*/
+    margin-bottom: 29px; /*odsazeni zespoda*/
+    margin-left: 14px; /*odsazeni zleva*/
+    
+    font-size: 27px; /*velikost pisma*/
+}
+
+.podnázev{
+     font-family: 'Playfair', serif; /*font*/
+    font-size: 30px; /*velikost pisma*/
+    color: #d4a373; /*barva poozadi*/
+    
+    justify-content: center; /*zarovnani na stred*/
+    display: flex; /*zarovnani na stred*/
+}
+.podnázev2{
+    font-size: 24px; /*velikost pisma*/
+   
+}
+p{
+    font-size: 19px; /*velikost pisma*/
+    font-family: times new roman; /*font*/
+    text-align: center; /*zarovnani textu na stred*/
+}
+.o_nás{
+    background-color: #faedcd; /*barva poozadi*/
+    width: 1475px; /*sirka bloku*/
+}
+.text{
+    width: 680px; /*sirka textu*/
+    margin-left: 400px; /*odsazeni zleva*/
+}
+.obrazkovydiv{
+    justify-content: center; /*zarovnani na stred*/
+    display: flex; /*zarovnani na stred*/
+}
+.areal{
+    background-color: #ccd5ae; /*barva poozadi*/
+    width: 1475px; /*sirka bloku*/
+    margin-top: -1px; /*odsazeni zezhora*/
+}
+footer{
+    width: 1475px; /*sirka zapati*/
+ 
+    height: 150px; /*vyska zapati*/
+    margin-top: -20px; /*odsazeni zezhora*/
+   
+    background-color: #faedcd; /*barva poozadi*/
+    font-size: 16px; /*velikost pisma*/
+
+}
+
+.obrazek_v_zapati{
+    width: 170px; /*sirka obrazku*/
+    height: 195px; /*vyska obrazku*/
+    
+}
+.obrazek_zapati{
+    justify-content: center; /*zarovnani na stred*/
+    display: flex;  /*zarovnani na stred*/
+
+}
+        

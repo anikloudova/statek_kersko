@@ -1,0 +1,97 @@
+body{
+	background-color: #f9f7f3; /*barva pozadi*/
+    font-family: times new roman; /*font*/
+    justify-content: center; /*zarovnani na stred*/
+	display: flex; /*zarovnani na stred*/
+}
+
+.název{
+	font-family: times new roman; /*font*/
+	justify-content: center; /*zarovnani na stred*/
+	display: flex; /*zarovnani na stred*/
+	font-size: 30px; /*velikost pisma*/
+	margin-right: 737,5px; /*odsazeni zprava*/
+	margin-top: 32px; /*odsazeni zezhora*/
+
+}
+img{
+	width: 1475px; /*sirka obrazku*/
+}
+
+p{
+    font-family: times new roman; /*font*/
+	justify-content: center; /*zarovnani na stred*/
+	display: flex; /*zarovnani na stred*/
+	font-size: 19px; /*velikost pisma*/
+	margin-right: 737,5px; /*odsazeni zprava*/
+	margin-top: 32px;
+}
+.tabulka1{
+    justify-content: center; /*zarovnani na stred*/
+	display: flex; /*zarovnani na stred*/
+	font-family: times new roman; /*font*/
+	font-size: 17px; /*velikost pisma*/
+}
+.tabulka2{
+	justify-content: center;
+	display: flex;
+	font-family: times new roman;	
+	font-size: 17px;	
+}
+.tabulka3{
+	justify-content: center;
+	display: flex;
+	font-family: times new roman;	
+	font-size: 17px;	
+}
+.tabulka4{
+	justify-content: center;
+	display: flex;
+	font-family: times new roman;	
+	font-size: 17px;
+}
+.podnázev{
+	font-family: times new roman; /*font*/
+	justify-content: center; /*zarovnani na stred*/
+	display: flex; /*zarovnani na stred*/
+	font-size: 25px; /*velikost pisma*/
+	margin-right: 737,5px; /*odsazeni zprava*/
+	margin-top: 32px; /*odsazeni zezhora*/
+	color: #d4a373; /*barva pozadi*/
+}
+a{
+	font-family: times new roman; /*font*/
+    font-size: 17px; /*velikost pisma*/
+    justify-content: center; /*zarovnani na stred*/
+	display: flex; /*zarovnani na stred*/
+	text-align: center; /*zarovnani textu na stred*/
+	color: #d4a373; /*barva pozadi*/
+
+	
+}
+a:visited{
+	color: #d4a373; /*barva pisma po navstiveni odkazu*/
+
+}
+footer{
+    width: 1475px; /*sirka zapati*/
+    height: 156px; /*vyska zapati*/
+
+    margin-top: -20px; /*odsazeni zezhora*/
+   
+    background-color: #ccd5ae; /*barva pozadi*/
+
+    font-size: 16px; /*velikost pisma*/
+}
+
+.obrazek_v_zapati{
+    width: 170px; /*sirka obrazku*/
+    height: 195px; /*vyska obrazku*/
+}
+
+.obrazek_zapati{
+    justify-content: center; /*zarovnani na stred*/
+    display: flex;  /*zarovnani na stred*/
+}
+
+
